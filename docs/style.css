@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
@@ -14,8 +14,6 @@ body {
   background-image: radial-gradient(circle, #ffdde1 1px, transparent 1px);
   background-size: 20px 20px;
 }
-
-/* Menu */
 nav {
   background: #fa58b1;
   padding: 10px;
@@ -35,7 +33,6 @@ nav a:hover {
   color: #ffd700;
 }
 
-/* Cabeçalho */
 header {
   text-align: center;
   padding: 20px;
@@ -47,8 +44,6 @@ header h2 {
   font-size: 1.2em;
   color: #420c37;
 }
-
-/* Seções */
 section {
   background: #f3b7c9;
   margin: 20px auto;
@@ -65,19 +60,10 @@ section ul {
   list-style: square inside;
 }
 
-/* Rodapé */
 footer {
   text-align: center;
   padding: 15px;
   margin-top: 20px;
   background: #ad0562;
   color: #fff;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    gap: 10px;
-  }
 }
